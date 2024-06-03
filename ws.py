@@ -19,7 +19,7 @@ async def run_prompt(random_id):
     if len(ws_list) <= 0:
         return
     for ws in ws_list:
-        await ws.call("run_prompt", {'random_id': random_id})
+        await ws.call("run_prompt", {'random_id': random_id}, timeout = 600)
     queue = PromptServer.instance.prompt_queue
     if not queue:
         return
