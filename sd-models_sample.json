@@ -1,0 +1,1322 @@
+[
+    {
+        "title": ".cache\\invoke\\ldm\\stable-diffusion-v1\\vae-ft-mse-840000-ema-pruned.ckpt [c6a580b13a]",
+        "model_name": ".cache_invoke_ldm_stable-diffusion-v1_vae-ft-mse-840000-ema-pruned",
+        "hash": "c6a580b13a",
+        "sha256": "c6a580b13a5bc05a5e16e4dbb80608ff2ec251a162311590c1f34c013d7f3dab",
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\.cache\\invoke\\ldm\\stable-diffusion-v1\\vae-ft-mse-840000-ema-pruned.ckpt",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\control_canny-fp16.safetensors",
+        "model_name": "ControlNet_control_canny-fp16",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\control_canny-fp16.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\control_depth-fp16.safetensors",
+        "model_name": "ControlNet_control_depth-fp16",
+        "hash": "400750F6",
+        "sha256": "400750F6",
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\control_depth-fp16.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\control_hed-fp16.safetensors",
+        "model_name": "ControlNet_control_hed-fp16",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\control_hed-fp16.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\control_lora_rank128_v11f1e_sd15_tile_fp16.safetensors",
+        "model_name": "ControlNet_control_lora_rank128_v11f1e_sd15_tile_fp16",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\control_lora_rank128_v11f1e_sd15_tile_fp16.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\control_mediapipe_face_sd15_v2.safetensors",
+        "model_name": "ControlNet_control_mediapipe_face_sd15_v2",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\control_mediapipe_face_sd15_v2.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\control_mlsd-fp16.safetensors",
+        "model_name": "ControlNet_control_mlsd-fp16",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\control_mlsd-fp16.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\control_normal-fp16.safetensors",
+        "model_name": "ControlNet_control_normal-fp16",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\control_normal-fp16.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\control_openpose-fp16.safetensors",
+        "model_name": "ControlNet_control_openpose-fp16",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\control_openpose-fp16.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\control_scribble-fp16.safetensors",
+        "model_name": "ControlNet_control_scribble-fp16",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\control_scribble-fp16.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\control_seg-fp16.safetensors",
+        "model_name": "ControlNet_control_seg-fp16",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\control_seg-fp16.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\control_v2p_sd15_mediapipe_face.safetensors",
+        "model_name": "ControlNet_control_v2p_sd15_mediapipe_face",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\control_v2p_sd15_mediapipe_face.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\control_v11p_sd15_inpaint_fp16.safetensors",
+        "model_name": "ControlNet_control_v11p_sd15_inpaint_fp16",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\control_v11p_sd15_inpaint_fp16.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\controlnet11Models_animeline.safetensors",
+        "model_name": "ControlNet_controlnet11Models_animeline",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\controlnet11Models_animeline.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\controlnet11Models_canny.safetensors",
+        "model_name": "ControlNet_controlnet11Models_canny",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\controlnet11Models_canny.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\controlnet11Models_depth.safetensors",
+        "model_name": "ControlNet_controlnet11Models_depth",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\controlnet11Models_depth.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\controlnet11Models_inpaint.safetensors",
+        "model_name": "ControlNet_controlnet11Models_inpaint",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\controlnet11Models_inpaint.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\controlnet11Models_lineart.safetensors",
+        "model_name": "ControlNet_controlnet11Models_lineart",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\controlnet11Models_lineart.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\controlnet11Models_mlsd.safetensors",
+        "model_name": "ControlNet_controlnet11Models_mlsd",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\controlnet11Models_mlsd.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\controlnet11Models_normal.safetensors",
+        "model_name": "ControlNet_controlnet11Models_normal",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\controlnet11Models_normal.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\controlnet11Models_openpose.safetensors",
+        "model_name": "ControlNet_controlnet11Models_openpose",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\controlnet11Models_openpose.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\controlnet11Models_pix2pix.safetensors",
+        "model_name": "ControlNet_controlnet11Models_pix2pix",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\controlnet11Models_pix2pix.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\controlnet11Models_scribble.safetensors",
+        "model_name": "ControlNet_controlnet11Models_scribble",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\controlnet11Models_scribble.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\controlnet11Models_seg.safetensors",
+        "model_name": "ControlNet_controlnet11Models_seg",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\controlnet11Models_seg.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\controlnet11Models_shuffle.safetensors",
+        "model_name": "ControlNet_controlnet11Models_shuffle",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\controlnet11Models_shuffle.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\controlnet11Models_softedge.safetensors",
+        "model_name": "ControlNet_controlnet11Models_softedge",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\controlnet11Models_softedge.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\controlnet11Models_tile.safetensors",
+        "model_name": "ControlNet_controlnet11Models_tile",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\controlnet11Models_tile.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\diffusers_xl_depth_full.safetensors",
+        "model_name": "ControlNet_diffusers_xl_depth_full",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\diffusers_xl_depth_full.safetensors",
+        "config": null
+    },
+    {
+        "title": "ControlNet\\t2iadapter_color-fp16.safetensors",
+        "model_name": "ControlNet_t2iadapter_color-fp16",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\ControlNet\\t2iadapter_color-fp16.safetensors",
+        "config": null
+    },
+    {
+        "title": "embeddings\\EasyNegative.safetensors",
+        "model_name": "embeddings_EasyNegative",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\embeddings\\EasyNegative.safetensors",
+        "config": null
+    },
+    {
+        "title": "LDSR\\model.ckpt",
+        "model_name": "LDSR_model",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\LDSR\\model.ckpt",
+        "config": null
+    },
+    {
+        "title": "Lora\\64x3-05.safetensors",
+        "model_name": "Lora_64x3-05",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\64x3-05.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\0220 nude tattoo_v2.safetensors",
+        "model_name": "Lora_0220 nude tattoo_v2",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\0220 nude tattoo_v2.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\add_detail.safetensors",
+        "model_name": "Lora_add_detail",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\add_detail.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\demoTaeyeon_teayeonsnsdV1.safetensors",
+        "model_name": "Lora_demoTaeyeon_teayeonsnsdV1",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\demoTaeyeon_teayeonsnsdV1.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\ExperimentalMakeup_v10.safetensors",
+        "model_name": "Lora_ExperimentalMakeup_v10",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\ExperimentalMakeup_v10.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\fashionGirl_v53.safetensors",
+        "model_name": "Lora_fashionGirl_v53",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\fashionGirl_v53.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\gachaSplashLORA_v40.safetensors",
+        "model_name": "Lora_gachaSplashLORA_v40",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\gachaSplashLORA_v40.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\GJY_LoCon.safetensors",
+        "model_name": "Lora_GJY_LoCon",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\GJY_LoCon.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\GJY_LoHA.safetensors",
+        "model_name": "Lora_GJY_LoHA",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\GJY_LoHA.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\GJY_LoRA.safetensors",
+        "model_name": "Lora_GJY_LoRA",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\GJY_LoRA.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\Goth_girl-v2.safetensors",
+        "model_name": "Lora_Goth_girl-v2",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\Goth_girl-v2.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\hyperrefiner_v090.safetensors",
+        "model_name": "Lora_hyperrefiner_v090",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\hyperrefiner_v090.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\japaneseDollLikeness_v10.safetensors",
+        "model_name": "Lora_japaneseDollLikeness_v10",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\japaneseDollLikeness_v10.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\koreanDollLikeness_v15.safetensors",
+        "model_name": "Lora_koreanDollLikeness_v15",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\koreanDollLikeness_v15.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\lcm-lora-sdv1-5.safetensors.safetensors",
+        "model_name": "Lora_lcm-lora-sdv1-5.safetensors",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\lcm-lora-sdv1-5.safetensors.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\lcm-lora-sdxl.safetensors",
+        "model_name": "Lora_lcm-lora-sdxl",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\lcm-lora-sdxl.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\LohaWhiteDewStyle_lohaV10.safetensors",
+        "model_name": "Lora_LohaWhiteDewStyle_lohaV10",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\LohaWhiteDewStyle_lohaV10.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\lucyCyberpunk_35Epochs.safetensors",
+        "model_name": "Lora_lucyCyberpunk_35Epochs",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\lucyCyberpunk_35Epochs.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\lucyCyberpunk_42Epochs.safetensors",
+        "model_name": "Lora_lucyCyberpunk_42Epochs",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\lucyCyberpunk_42Epochs.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\megu-lokr.safetensors",
+        "model_name": "Lora_megu-lokr",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\megu-lokr.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\mikapikazo.safetensors",
+        "model_name": "Lora_mikapikazo",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\mikapikazo.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\natsumi_ikitottanka_ware_v002_animagine.safetensors",
+        "model_name": "Lora_natsumi_ikitottanka_ware_v002_animagine",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\natsumi_ikitottanka_ware_v002_animagine.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\phoenixdressV.2-0000010.safetensors",
+        "model_name": "Lora_phoenixdressV.2-0000010",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\phoenixdressV.2-0000010.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\rebuildOfEvangelionStyle_4LoconLycoris.safetensors",
+        "model_name": "Lora_rebuildOfEvangelionStyle_4LoconLycoris",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\rebuildOfEvangelionStyle_4LoconLycoris.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\taiwanDollLikeness_v10.safetensors",
+        "model_name": "Lora_taiwanDollLikeness_v10",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\taiwanDollLikeness_v10.safetensors",
+        "config": null
+    },
+    {
+        "title": "Lora\\Ukiyo-e.safetensors",
+        "model_name": "Lora_Ukiyo-e",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\Lora\\Ukiyo-e.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\16-bit-landscape_PublicPrompts.ckpt",
+        "model_name": "StableDiffusion_16-bit-landscape_PublicPrompts",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\16-bit-landscape_PublicPrompts.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\allInOnePixelModel_v1.ckpt",
+        "model_name": "StableDiffusion_allInOnePixelModel_v1",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\allInOnePixelModel_v1.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\Anything-V3.0-pruned-fp16.ckpt",
+        "model_name": "StableDiffusion_Anything-V3.0-pruned-fp16",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\Anything-V3.0-pruned-fp16.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\AnythingGape.ckpt",
+        "model_name": "StableDiffusion_AnythingGape",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\AnythingGape.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\AOM2-NSFW-inpainting.safetensors",
+        "model_name": "StableDiffusion_AOM2-NSFW-inpainting",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\AOM2-NSFW-inpainting.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\AOM2-NSFW.safetensors",
+        "model_name": "StableDiffusion_AOM2-NSFW",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\AOM2-NSFW.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\AOM2-SFW-inpainting.safetensors",
+        "model_name": "StableDiffusion_AOM2-SFW-inpainting",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\AOM2-SFW-inpainting.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\AOM2-SFW.safetensors",
+        "model_name": "StableDiffusion_AOM2-SFW",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\AOM2-SFW.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\AOM3.safetensors [d124fc18f0]",
+        "model_name": "StableDiffusion_AOM3",
+        "hash": "d124fc18f0",
+        "sha256": "d124fc18f0232d7f0a2a70358cdb1288af9e1ee8596200f50f0936be59514f6d",
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\AOM3.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\AOM3A1.safetensors [f303d10812]",
+        "model_name": "StableDiffusion_AOM3A1",
+        "hash": "f303d10812",
+        "sha256": "f303d108122ddd43a34c160bd46dbb08cb0e088e979acda0bf168a7a1f5820e0",
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\AOM3A1.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\AOM3A2.safetensors",
+        "model_name": "StableDiffusion_AOM3A2",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\AOM3A2.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\AOM3A3.safetensors [eb4099ba9c]",
+        "model_name": "StableDiffusion_AOM3A3",
+        "hash": "eb4099ba9c",
+        "sha256": "eb4099ba9cd5e69ab526fca22a2e967f286f8512d9509b735c892fa6468767cf",
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\AOM3A3.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\appIconsGenerator_v1.ckpt",
+        "model_name": "StableDiffusion_appIconsGenerator_v1",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\appIconsGenerator_v1.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\arcane-diffusion-v3.ckpt",
+        "model_name": "StableDiffusion_arcane-diffusion-v3",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\arcane-diffusion-v3.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\astranime_V6.safetensors",
+        "model_name": "StableDiffusion_astranime_V6",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\astranime_V6.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\berry_mix.ckpt",
+        "model_name": "StableDiffusion_berry_mix",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\berry_mix.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\ChromaV5 (2.0).ckpt",
+        "model_name": "StableDiffusion_ChromaV5 (2.0)",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\ChromaV5 (2.0).ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\classicAnim-v1.ckpt",
+        "model_name": "StableDiffusion_classicAnim-v1",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\classicAnim-v1.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\comicDiffusion_v2.ckpt",
+        "model_name": "StableDiffusion_comicDiffusion_v2",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\comicDiffusion_v2.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\complexLineart_v1.ckpt",
+        "model_name": "StableDiffusion_complexLineart_v1",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\complexLineart_v1.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\Counterfeit-V2.5.safetensors",
+        "model_name": "StableDiffusion_Counterfeit-V2.5",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\Counterfeit-V2.5.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\dalcefo_v3_painting.safetensors",
+        "model_name": "StableDiffusion_dalcefo_v3_painting",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\dalcefo_v3_painting.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\darkSushiMixMix_colorful.safetensors",
+        "model_name": "StableDiffusion_darkSushiMixMix_colorful",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\darkSushiMixMix_colorful.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\dbmai.ckpt",
+        "model_name": "StableDiffusion_dbmai",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\dbmai.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\dewdrop_v15.ckpt",
+        "model_name": "StableDiffusion_dewdrop_v15",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\dewdrop_v15.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\DosMix.safetensors",
+        "model_name": "StableDiffusion_DosMix",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\DosMix.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\DreamShaper.safetensors",
+        "model_name": "StableDiffusion_DreamShaper",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\DreamShaper.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\DreamShaper_8_pruned.safetensors",
+        "model_name": "StableDiffusion_DreamShaper_8_pruned",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\DreamShaper_8_pruned.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\eldenRingStyle_v3.ckpt",
+        "model_name": "StableDiffusion_eldenRingStyle_v3",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\eldenRingStyle_v3.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\f222.ckpt",
+        "model_name": "StableDiffusion_f222",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\f222.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\gapingLargeInsertion_60.ckpt",
+        "model_name": "StableDiffusion_gapingLargeInsertion_60",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\gapingLargeInsertion_60.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\ghibliDiffusion_v1.ckpt",
+        "model_name": "StableDiffusion_ghibliDiffusion_v1",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\ghibliDiffusion_v1.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\ghostmix.safetensors",
+        "model_name": "StableDiffusion_ghostmix",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\ghostmix.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\GJYDBTest_0.safetensors",
+        "model_name": "StableDiffusion_GJYDBTest_0",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\GJYDBTest_0.safetensors",
+        "config": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\GJYDBTest_0.yaml"
+    },
+    {
+        "title": "StableDiffusion\\GrapefruitV4-inpainting.safetensors",
+        "model_name": "StableDiffusion_GrapefruitV4-inpainting",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\GrapefruitV4-inpainting.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\GrapefruitV4.safetensors",
+        "model_name": "StableDiffusion_GrapefruitV4",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\GrapefruitV4.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\hassanBlend14.ckpt",
+        "model_name": "StableDiffusion_hassanBlend14",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\hassanBlend14.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\HD-17.ckpt",
+        "model_name": "StableDiffusion_HD-17",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\HD-17.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\iCoMix-V04.safetensors",
+        "model_name": "StableDiffusion_iCoMix-V04",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\iCoMix-V04.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\inkpunkDiffusion_v2.ckpt",
+        "model_name": "StableDiffusion_inkpunkDiffusion_v2",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\inkpunkDiffusion_v2.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\isometricCities_v1.ckpt",
+        "model_name": "StableDiffusion_isometricCities_v1",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\isometricCities_v1.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\jaksCreepyCritter..._v1.ckpt",
+        "model_name": "StableDiffusion_jaksCreepyCritter..._v1",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\jaksCreepyCritter..._v1.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\jakSVoxelIshImage_v12.ckpt",
+        "model_name": "StableDiffusion_jakSVoxelIshImage_v12",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\jakSVoxelIshImage_v12.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\jakSWoolitizeImag_woolitizeForSd15.ckpt",
+        "model_name": "StableDiffusion_jakSWoolitizeImag_woolitizeForSd15",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\jakSWoolitizeImag_woolitizeForSd15.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\jhSSamdoesarts_v5.ckpt",
+        "model_name": "StableDiffusion_jhSSamdoesarts_v5",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\jhSSamdoesarts_v5.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\JWST-Deep-Space.ckpt",
+        "model_name": "StableDiffusion_JWST-Deep-Space",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\JWST-Deep-Space.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\Lyriel.safetensors",
+        "model_name": "StableDiffusion_Lyriel",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\Lyriel.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\mdjrny-v4.ckpt",
+        "model_name": "StableDiffusion_mdjrny-v4",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\mdjrny-v4.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\Meina.safetensors",
+        "model_name": "StableDiffusion_Meina",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\Meina.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\microWorlds_v1.ckpt",
+        "model_name": "StableDiffusion_microWorlds_v1",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\microWorlds_v1.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\midjourneyPapercut_v1.ckpt",
+        "model_name": "StableDiffusion_midjourneyPapercut_v1",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\midjourneyPapercut_v1.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\MMD V1-18 MODEL MERGE (TONED DOWN) ALPHA.ckpt",
+        "model_name": "StableDiffusion_MMD V1-18 MODEL MERGE (TONED DOWN) ALPHA",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\MMD V1-18 MODEL MERGE (TONED DOWN) ALPHA.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\model_Anything-V3.0-pruned-fp16_GJY_300.ckpt",
+        "model_name": "StableDiffusion_model_Anything-V3.0-pruned-fp16_GJY_300",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\model_Anything-V3.0-pruned-fp16_GJY_300.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\model_Anything-V3.0-pruned-fp16_GJY_600.ckpt",
+        "model_name": "StableDiffusion_model_Anything-V3.0-pruned-fp16_GJY_600",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\model_Anything-V3.0-pruned-fp16_GJY_600.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\model_Anything-V3.0-pruned-fp16_GJY_900.ckpt",
+        "model_name": "StableDiffusion_model_Anything-V3.0-pruned-fp16_GJY_900",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\model_Anything-V3.0-pruned-fp16_GJY_900.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\model_Anything-V3.0-pruned-fp16_GJY_1100.ckpt",
+        "model_name": "StableDiffusion_model_Anything-V3.0-pruned-fp16_GJY_1100",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\model_Anything-V3.0-pruned-fp16_GJY_1100.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\model_v1-5-pruned-emaonly_GJY_400.ckpt",
+        "model_name": "StableDiffusion_model_v1-5-pruned-emaonly_GJY_400",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\model_v1-5-pruned-emaonly_GJY_400.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\model_v1-5-pruned-emaonly_GJY_800.ckpt",
+        "model_name": "StableDiffusion_model_v1-5-pruned-emaonly_GJY_800",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\model_v1-5-pruned-emaonly_GJY_800.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\model_v1-5-pruned-emaonly_GJY_1200.ckpt",
+        "model_name": "StableDiffusion_model_v1-5-pruned-emaonly_GJY_1200",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\model_v1-5-pruned-emaonly_GJY_1200.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\modernDisney_v1.ckpt",
+        "model_name": "StableDiffusion_modernDisney_v1",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\modernDisney_v1.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\OldFish_2348V12_clipfix.safetensors",
+        "model_name": "StableDiffusion_OldFish_2348V12_clipfix",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\OldFish_2348V12_clipfix.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\OldFish_v10.safetensors",
+        "model_name": "StableDiffusion_OldFish_v10",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\OldFish_v10.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\papercut_v1.ckpt",
+        "model_name": "StableDiffusion_papercut_v1",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\papercut_v1.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\Pastel-Mix.safetensors",
+        "model_name": "StableDiffusion_Pastel-Mix",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\Pastel-Mix.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\PerfectWorld.safetensors",
+        "model_name": "StableDiffusion_PerfectWorld",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\PerfectWorld.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\PerfectWorldV2.safetensors",
+        "model_name": "StableDiffusion_PerfectWorldV2",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\PerfectWorldV2.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\pixelArtSpriteDiffusion_v1.ckpt",
+        "model_name": "StableDiffusion_pixelArtSpriteDiffusion_v1",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\pixelArtSpriteDiffusion_v1.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\pyros-bj-v1-0.ckpt",
+        "model_name": "StableDiffusion_pyros-bj-v1-0",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\pyros-bj-v1-0.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\redshift-diffusion-v1.ckpt",
+        "model_name": "StableDiffusion_redshift-diffusion-v1",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\redshift-diffusion-v1.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\RevAnimatedv11.safetensors",
+        "model_name": "StableDiffusion_RevAnimatedv11",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\RevAnimatedv11.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\samdoesartsHomage_v1.ckpt",
+        "model_name": "StableDiffusion_samdoesartsHomage_v1",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\samdoesartsHomage_v1.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\samdoesartsUltmerge_v1.ckpt",
+        "model_name": "StableDiffusion_samdoesartsUltmerge_v1",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\samdoesartsUltmerge_v1.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\samdoesartsV2_v2.ckpt",
+        "model_name": "StableDiffusion_samdoesartsV2_v2",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\samdoesartsV2_v2.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\sd-v1-4.ckpt",
+        "model_name": "StableDiffusion_sd-v1-4",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\sd-v1-4.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\sd-v1-5-inpainting.ckpt",
+        "model_name": "StableDiffusion_sd-v1-5-inpainting",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\sd-v1-5-inpainting.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\seraphm_v1.ckpt",
+        "model_name": "StableDiffusion_seraphm_v1",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\seraphm_v1.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\SF_EB_1.1_ema_vae.ckpt",
+        "model_name": "StableDiffusion_SF_EB_1.1_ema_vae",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\SF_EB_1.1_ema_vae.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\superheroDiffusion_v1.ckpt",
+        "model_name": "StableDiffusion_superheroDiffusion_v1",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\superheroDiffusion_v1.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\synthwave_v1.ckpt",
+        "model_name": "StableDiffusion_synthwave_v1",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\synthwave_v1.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\synthwavePunk_v2.ckpt",
+        "model_name": "StableDiffusion_synthwavePunk_v2",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\synthwavePunk_v2.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\TestGJY.ckpt",
+        "model_name": "StableDiffusion_TestGJY",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\TestGJY.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\v1-5-pruned-emaonly.ckpt",
+        "model_name": "StableDiffusion_v1-5-pruned-emaonly",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\v1-5-pruned-emaonly.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\v1-5-pruned.ckpt",
+        "model_name": "StableDiffusion_v1-5-pruned",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\v1-5-pruned.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\wd-v1-3-float16.ckpt",
+        "model_name": "StableDiffusion_wd-v1-3-float16",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\wd-v1-3-float16.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\wd-v1-3-float32.ckpt",
+        "model_name": "StableDiffusion_wd-v1-3-float32",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\wd-v1-3-float32.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusion\\YesMix.safetensors",
+        "model_name": "StableDiffusion_YesMix",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusion\\YesMix.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusionAux\\stable_zero123.ckpt",
+        "model_name": "StableDiffusionAux_stable_zero123",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusionAux\\stable_zero123.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusionAux\\svd_xt.safetensors",
+        "model_name": "StableDiffusionAux_svd_xt",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusionAux\\svd_xt.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusionAux\\wd-1-5-beta2-aesthetic-unclip-h-fp16.safetensors",
+        "model_name": "StableDiffusionAux_wd-1-5-beta2-aesthetic-unclip-h-fp16",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusionAux\\wd-1-5-beta2-aesthetic-unclip-h-fp16.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusionTurbo\\grogmixTURBO_v10.safetensors",
+        "model_name": "StableDiffusionTurbo_grogmixTURBO_v10",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusionTurbo\\grogmixTURBO_v10.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusionTurbo\\sd_xl_turbo_1.0_fp16.safetensors",
+        "model_name": "StableDiffusionTurbo_sd_xl_turbo_1.0_fp16",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusionTurbo\\sd_xl_turbo_1.0_fp16.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusionTurbo\\vxpXLTURBO_vxpXLV15.safetensors",
+        "model_name": "StableDiffusionTurbo_vxpXLTURBO_vxpXLV15",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusionTurbo\\vxpXLTURBO_vxpXLV15.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusionXL\\aamXLAnimeMix_v10.safetensors [d48c2391e0]",
+        "model_name": "StableDiffusionXL_aamXLAnimeMix_v10",
+        "hash": "d48c2391e0",
+        "sha256": "d48c2391e04f7dbc83d8538b71be8a30991f3e4e2ff1a8a757b849381f769a8b",
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusionXL\\aamXLAnimeMix_v10.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusionXL\\animagineXLV3_v30.safetensors [1449e5b0b9]",
+        "model_name": "StableDiffusionXL_animagineXLV3_v30",
+        "hash": "1449e5b0b9",
+        "sha256": "1449e5b0b9de87b0f414c5f29cb11ce3b3dc61fa2b320e784c9441720bf7b766",
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusionXL\\animagineXLV3_v30.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusionXL\\animeIllustDiffusion_v071.safetensors",
+        "model_name": "StableDiffusionXL_animeIllustDiffusion_v071",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusionXL\\animeIllustDiffusion_v071.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusionXL\\cosxlHK097EDITPix2pix_v097CosxlEDIT.safetensors",
+        "model_name": "StableDiffusionXL_cosxlHK097EDITPix2pix_v097CosxlEDIT",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusionXL\\cosxlHK097EDITPix2pix_v097CosxlEDIT.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusionXL\\fantasyland_v10SDXLTurbo.ckpt [c6025e7e4b]",
+        "model_name": "StableDiffusionXL_fantasyland_v10SDXLTurbo",
+        "hash": "c6025e7e4b",
+        "sha256": "c6025e7e4b91cecfc444aa3e9047abc9a00791bc81e6b813ed385dc201adfcd5",
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusionXL\\fantasyland_v10SDXLTurbo.ckpt",
+        "config": null
+    },
+    {
+        "title": "StableDiffusionXL\\inkDyeingAnimeXL_v20.safetensors",
+        "model_name": "StableDiffusionXL_inkDyeingAnimeXL_v20",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusionXL\\inkDyeingAnimeXL_v20.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusionXL\\juggernautXL_juggernautX.safetensors [d91d35736d]",
+        "model_name": "StableDiffusionXL_juggernautXL_juggernautX",
+        "hash": "d91d35736d",
+        "sha256": "d91d35736d8f2be038f760a9b0009a771ecf0a417e9b38c244a84ea4cb9c0c45",
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusionXL\\juggernautXL_juggernautX.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusionXL\\ponyDiffusionV6XL_v6.safetensors",
+        "model_name": "StableDiffusionXL_ponyDiffusionV6XL_v6",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusionXL\\ponyDiffusionV6XL_v6.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusionXL\\protovisionXLHighFidelity3D_releaseV660Bakedvae.safetensors",
+        "model_name": "StableDiffusionXL_protovisionXLHighFidelity3D_releaseV660Bakedvae",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusionXL\\protovisionXLHighFidelity3D_releaseV660Bakedvae.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusionXL\\PVCStyleModelMovable_beta26.safetensors",
+        "model_name": "StableDiffusionXL_PVCStyleModelMovable_beta26",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusionXL\\PVCStyleModelMovable_beta26.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusionXL\\robmixCosxlEdit_cosxlEdit10.safetensors",
+        "model_name": "StableDiffusionXL_robmixCosxlEdit_cosxlEdit10",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusionXL\\robmixCosxlEdit_cosxlEdit10.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusionXL\\sd_xl_base_1.0_vaefix.safetensors",
+        "model_name": "StableDiffusionXL_sd_xl_base_1.0_vaefix",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusionXL\\sd_xl_base_1.0_vaefix.safetensors",
+        "config": null
+    },
+    {
+        "title": "StableDiffusionXL\\sd_xl_refiner_1.0_vaefix.safetensors",
+        "model_name": "StableDiffusionXL_sd_xl_refiner_1.0_vaefix",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\StableDiffusionXL\\sd_xl_refiner_1.0_vaefix.safetensors",
+        "config": null
+    },
+    {
+        "title": "TripoSR\\triposr.ckpt",
+        "model_name": "TripoSR_triposr",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\TripoSR\\triposr.ckpt",
+        "config": null
+    },
+    {
+        "title": "VAE\\kl-f8-anime2.ckpt",
+        "model_name": "VAE_kl-f8-anime2",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\VAE\\kl-f8-anime2.ckpt",
+        "config": null
+    },
+    {
+        "title": "VAE\\vae-ft-mse-840000-ema-pruned.ckpt",
+        "model_name": "VAE_vae-ft-mse-840000-ema-pruned",
+        "hash": null,
+        "sha256": null,
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\VAE\\vae-ft-mse-840000-ema-pruned.ckpt",
+        "config": null
+    }
+]

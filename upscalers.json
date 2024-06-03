@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Dummy Upscaler",
+        "model_name": "Dummy Model Name",
+        "model_path": "Dummy Model Path",
+        "model_url": null,
+        "scale": 4
+    }
+]

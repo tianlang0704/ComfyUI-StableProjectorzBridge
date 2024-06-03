@@ -1,0 +1,33 @@
+{
+    "model_list": [
+        "None",
+        "control_canny-fp16 [e3fe7712]",
+        "control_depth-fp16 [400750f6]",
+        "control_hed-fp16 [13fee50b]",
+        "control_lora_rank128_v11f1e_sd15_tile_fp16 [d258993f]",
+        "control_mediapipe_face_sd15_v2 [9c7784a9]",
+        "control_mlsd-fp16 [e3705cfa]",
+        "control_normal-fp16 [63f96f7c]",
+        "control_openpose-fp16 [9ca67cc5]",
+        "control_scribble-fp16 [c508311e]",
+        "control_seg-fp16 [b9c1cc12]",
+        "control_v11p_sd15_inpaint_fp16 [be8bc0ed]",
+        "control_v2p_sd15_mediapipe_face [9c7784a9]",
+        "controlnet11Models_animeline [c58f338b]",
+        "controlnet11Models_canny [b18e0966]",
+        "controlnet11Models_depth [4b72d323]",
+        "controlnet11Models_inpaint [be8bc0ed]",
+        "controlnet11Models_lineart [5c23b17d]",
+        "controlnet11Models_mlsd [77b5ad24]",
+        "controlnet11Models_normal [592a19d8]",
+        "controlnet11Models_openpose [73c2b67d]",
+        "controlnet11Models_pix2pix [fabb3f7d]",
+        "controlnet11Models_scribble [4e6af23e]",
+        "controlnet11Models_seg [ab613144]",
+        "controlnet11Models_shuffle [04a71f87]",
+        "controlnet11Models_softedge [f616a34f]",
+        "controlnet11Models_tile [39a89b25]",
+        "diffusers_xl_depth_full [2f51180b]",
+        "t2iadapter_color-fp16 [743b5c62]"
+    ]
+}

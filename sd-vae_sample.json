@@ -1,0 +1,18 @@
+[
+    {
+        "model_name": "Anything-V3.0.vae.pt",
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\VAE\\Anything-V3.0.vae.pt"
+    },
+    {
+        "model_name": "blessed-fix.vae.pt",
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\VAE\\blessed-fix.vae.pt"
+    },
+    {
+        "model_name": "blessed2.vae.pt",
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\VAE\\blessed2.vae.pt"
+    },
+    {
+        "model_name": "orangemix.vae.pt",
+        "filename": "D:\\Projects\\AI\\0_Models\\2_Graphic\\VAE\\orangemix.vae.pt"
+    }
+]

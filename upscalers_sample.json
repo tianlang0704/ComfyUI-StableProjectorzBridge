@@ -1,0 +1,93 @@
+[
+    {
+        "name": "None",
+        "model_name": null,
+        "model_path": null,
+        "model_url": null,
+        "scale": 4.0
+    },
+    {
+        "name": "Lanczos",
+        "model_name": null,
+        "model_path": null,
+        "model_url": null,
+        "scale": 4.0
+    },
+    {
+        "name": "Nearest",
+        "model_name": null,
+        "model_path": null,
+        "model_url": null,
+        "scale": 4.0
+    },
+    {
+        "name": "DAT x2",
+        "model_name": null,
+        "model_path": "https://github.com/n0kovo/dat_upscaler_models/raw/main/DAT/DAT_x2.pth",
+        "model_url": null,
+        "scale": 2.0
+    },
+    {
+        "name": "DAT x3",
+        "model_name": null,
+        "model_path": "https://github.com/n0kovo/dat_upscaler_models/raw/main/DAT/DAT_x3.pth",
+        "model_url": null,
+        "scale": 3.0
+    },
+    {
+        "name": "DAT x4",
+        "model_name": null,
+        "model_path": "https://github.com/n0kovo/dat_upscaler_models/raw/main/DAT/DAT_x4.pth",
+        "model_url": null,
+        "scale": 4.0
+    },
+    {
+        "name": "ESRGAN_4x",
+        "model_name": "ESRGAN_4x",
+        "model_path": "D:\\Projects\\AI\\2_Graphic\\stable-diffusion-webui-forge\\models\\ESRGAN\\ESRGAN_4x.pth",
+        "model_url": null,
+        "scale": 4.0
+    },
+    {
+        "name": "LDSR",
+        "model_name": null,
+        "model_path": null,
+        "model_url": null,
+        "scale": 4.0
+    },
+    {
+        "name": "R-ESRGAN 4x+",
+        "model_name": null,
+        "model_path": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth",
+        "model_url": null,
+        "scale": 4.0
+    },
+    {
+        "name": "R-ESRGAN 4x+ Anime6B",
+        "model_name": null,
+        "model_path": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth",
+        "model_url": null,
+        "scale": 4.0
+    },
+    {
+        "name": "ScuNET GAN",
+        "model_name": "ScuNET GAN",
+        "model_path": "https://github.com/cszn/KAIR/releases/download/v1.0/scunet_color_real_gan.pth",
+        "model_url": null,
+        "scale": 4.0
+    },
+    {
+        "name": "ScuNET PSNR",
+        "model_name": "ScuNET GAN",
+        "model_path": "https://github.com/cszn/KAIR/releases/download/v1.0/scunet_color_real_psnr.pth",
+        "model_url": null,
+        "scale": 4.0
+    },
+    {
+        "name": "SwinIR 4x",
+        "model_name": "SwinIR 4x",
+        "model_path": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN.pth",
+        "model_url": null,
+        "scale": 4.0
+    }
+]
