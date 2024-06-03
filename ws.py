@@ -18,8 +18,8 @@ async def init_client_handler(request):
 async def run_prompt(random_id):
     if len(ws_list) <= 0:
         return
-    first_ws = ws_list[0]
-    await first_ws.call("run_prompt", {'random_id': random_id})
+    for ws in ws_list:
+        await ws.call("run_prompt", {'random_id': random_id})
     queue = PromptServer.instance.prompt_queue
     if not queue:
         return
