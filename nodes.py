@@ -4,11 +4,27 @@ from tkinter import Image
 from PIL import Image
 from PIL.PngImagePlugin import PngInfo
 import numpy as np
+import torch
 import folder_paths
 from nodes import LoadImage
 from .apis import FILENAME_FORMAT_INIT_PREFIX_DEFAULT, \
     FILENAME_FORMAT_CONTROLNET_PREFIX_DEFAULT, \
     FILENAME_FORMAT_OUTPUT_PREFIX_DEFAULT
+
+def get_empty_image():
+    r = torch.full([1, 512, 512, 1], ((0xFF >> 16) & 0xFF) / 0xFF)
+    g = torch.full([1, 512, 512, 1], ((0xFF >> 8) & 0xFF) / 0xFF)
+    b = torch.full([1, 512, 512, 1], ((0xFF) & 0xFF) / 0xFF)
+    return torch.cat((r, g, b), dim=-1)
+
+loadImage = LoadImage()
+def load_image(image_name):
+    try:
+        (output_image, output_mask) = loadImage.load_image(image_name)
+    except:
+        output_image = get_empty_image()
+        output_mask = torch.full([512, 512], 0)
+    return (output_image, output_mask)
 
 class ProjectorzInitInput:
     @classmethod
@@ -27,9 +43,9 @@ class ProjectorzInitInput:
     def run(self, index, name_prefix):
         loadImage = LoadImage()
         image_name = name_prefix + str(index) + ".png"
-        (output_image, output_mask) = loadImage.load_image(image_name)
+        (output_image, output_mask) = load_image(image_name)
         image_mask_name = name_prefix + str(index) + "_mask.png"
-        (output_image_mask, output_mask_mask) = loadImage.load_image(image_mask_name)
+        (output_image_mask, output_mask_mask) = load_image(image_mask_name)
         return (output_image, output_mask_mask)
     
 class ProjectorzControlnetInput:
@@ -49,9 +65,9 @@ class ProjectorzControlnetInput:
     def run(self, index, name_prefix):
         loadImage = LoadImage()
         image_name = name_prefix + str(index) + ".png"
-        (output_image, output_mask) = loadImage.load_image(image_name)
+        (output_image, output_mask) = load_image(image_name)
         image_mask_name = name_prefix + str(index) + "_mask.png"
-        (output_image_mask, output_mask_mask) = loadImage.load_image(image_mask_name)
+        (output_image_mask, output_mask_mask) = load_image(image_mask_name)
         return (output_image, output_mask_mask)
     
 class ProjectorzOutput:
