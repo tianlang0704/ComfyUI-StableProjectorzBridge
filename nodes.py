@@ -41,7 +41,6 @@ class ProjectorzInitInput:
     CATEGORY = "Projectorz"
 
     def run(self, index, name_prefix):
-        loadImage = LoadImage()
         image_name = name_prefix + str(index) + ".png"
         (output_image, output_mask) = load_image(image_name)
         image_mask_name = name_prefix + str(index) + "_mask.png"
@@ -63,7 +62,6 @@ class ProjectorzControlnetInput:
     CATEGORY = "Projectorz"
 
     def run(self, index, name_prefix):
-        loadImage = LoadImage()
         image_name = name_prefix + str(index) + ".png"
         (output_image, output_mask) = load_image(image_name)
         image_mask_name = name_prefix + str(index) + "_mask.png"
@@ -88,6 +86,7 @@ class ProjectorzOutput:
 
     def run(self, images, name_prefix, prompt=None, extra_pnginfo=None):
         output_dir = folder_paths.get_output_directory()
+        dup_count = 0
         for (batch_number, image) in enumerate(images):
             i = 255. * image.cpu().numpy()
             img = Image.fromarray(np.clip(i, 0, 255).astype(np.uint8))
@@ -97,8 +96,10 @@ class ProjectorzOutput:
             if extra_pnginfo is not None:
                 for x in extra_pnginfo:
                     metadata.add_text(x, json.dumps(extra_pnginfo[x]))
-                    
-            output_filename = f"{name_prefix}{batch_number}.png"
+            output_filename = f"{name_prefix}_{batch_number}_{dup_count}.png"
+            while os.path.exists(os.path.join(output_dir, output_filename)):
+                dup_count += 1
+                output_filename = f"{name_prefix}_{batch_number}_{dup_count}.png"
             img.save(os.path.join(output_dir, output_filename), pnginfo=metadata)
         return (None,)
 

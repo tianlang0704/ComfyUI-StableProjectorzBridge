@@ -13,9 +13,9 @@ import folder_paths
 from aiohttp import web
 from . import ws
 
-FILENAME_FORMAT_INIT_PREFIX = 'ProjectorInitBlob_{0}_'
-FILENAME_FORMAT_CONTROLNET_PREFIX = 'ProjectorControlnetBlob_{0}_'
-FILENAME_FORMAT_OUTPUT_PREFIX = 'ProjectorOutputBlob_{0}_'
+FILENAME_FORMAT_INIT_PREFIX = 'ProjectorInitBlob_'
+FILENAME_FORMAT_CONTROLNET_PREFIX = 'ProjectorControlnetBlob_'
+FILENAME_FORMAT_OUTPUT_PREFIX = 'ProjectorOutputBlob_'
 FILENAME_FORMAT_INIT_PREFIX_DEFAULT = FILENAME_FORMAT_INIT_PREFIX.format("0")
 FILENAME_FORMAT_CONTROLNET_PREFIX_DEFAULT = FILENAME_FORMAT_CONTROLNET_PREFIX.format("0")
 FILENAME_FORMAT_OUTPUT_PREFIX_DEFAULT = FILENAME_FORMAT_OUTPUT_PREFIX.format("0")
@@ -84,12 +84,15 @@ async def controlnet_module_list_handler(request):
 @PromptServer.instance.routes.post('/sdapi/v1/txt2img')
 async def txt2img_handler(request):
     json_data = await request.json()
-    randdom_id = "".join(random.choice(string.ascii_letters) for i in range(10))
+    batch_size = json_data.get('batch_size', 1)
+    n_iter = json_data.get('n_iter', 1)
+    comfy_batch = batch_size * n_iter
+    random_id = "".join(random.choice(string.ascii_letters) for i in range(10))
     image_bytes_list, image_mask_bytes_list = get_controlnet_image_list(json_data)
-    await upload_image_list(image_bytes_list, FILENAME_FORMAT_CONTROLNET_PREFIX.format(randdom_id) + "{}.png")
-    await upload_image_list(image_mask_bytes_list, FILENAME_FORMAT_CONTROLNET_PREFIX.format(randdom_id) + "{}_mask.png")
-    await ws.run_prompt(randdom_id)
-    images = await find_output_image_to_b64(FILENAME_FORMAT_OUTPUT_PREFIX.format(randdom_id))
+    await upload_image_list(image_bytes_list, FILENAME_FORMAT_CONTROLNET_PREFIX, random_id, ".png")
+    await upload_image_list(image_mask_bytes_list, FILENAME_FORMAT_CONTROLNET_PREFIX, random_id, "_mask.png")
+    await ws.run_prompt(random_id, comfy_batch)
+    images = await find_output_image_to_b64(FILENAME_FORMAT_OUTPUT_PREFIX + f"{random_id}_")
     return web.Response(body=json.dumps({'images': images}), content_type='application/json')
 
 @PromptServer.instance.routes.post('/sdapi/v1/img2img')
@@ -97,14 +100,14 @@ async def img2img_handler(request):
     json_data = await request.json()
     random_id = "".join(random.choice(string.ascii_letters) for i in range(10))
     init_image_list = get_init_image_list(json_data)
-    await upload_image_list(init_image_list, FILENAME_FORMAT_INIT_PREFIX.format(random_id) + "{}.png")
+    await upload_image_list(init_image_list, FILENAME_FORMAT_INIT_PREFIX, random_id, ".png")
     init_mask_list = get_init_image_mask_list(json_data)
-    await upload_image_list(init_mask_list, FILENAME_FORMAT_INIT_PREFIX.format(random_id) + "{}_mask.png")
+    await upload_image_list(init_mask_list, FILENAME_FORMAT_INIT_PREFIX, random_id, "_mask.png")
     image_bytes_list, image_mask_bytes_list = get_controlnet_image_list(json_data)
-    await upload_image_list(image_bytes_list, FILENAME_FORMAT_CONTROLNET_PREFIX.format(random_id) + "{}.png")
-    await upload_image_list(image_mask_bytes_list, FILENAME_FORMAT_CONTROLNET_PREFIX.format(random_id) + "{}_mask.png")
+    await upload_image_list(image_bytes_list, FILENAME_FORMAT_CONTROLNET_PREFIX, random_id, ".png")
+    await upload_image_list(image_mask_bytes_list, FILENAME_FORMAT_CONTROLNET_PREFIX, random_id, "_mask.png")
     await ws.run_prompt(random_id)
-    images = await find_output_image_to_b64(FILENAME_FORMAT_OUTPUT_PREFIX.format(random_id))
+    images = await find_output_image_to_b64(FILENAME_FORMAT_OUTPUT_PREFIX + f"{random_id}_")
     return web.Response(body=json.dumps({'images': images}), content_type='application/json')
 
 @PromptServer.instance.routes.post('/sdapi/v1/progress')
@@ -112,15 +115,25 @@ async def progress_handler(request):
     json_data = await request.json()
     return web.Response()
 
-async def upload_image_list(image_bytes_list, name_index_template):
+async def upload_image_list(image_bytes_list, prefix, random_id, postfix):
     if isinstance(image_bytes_list, str):
         image_bytes_list = [image_bytes_list]
     if not image_bytes_list or len(image_bytes_list) <= 0:
         return
+    prefix_random_id = prefix + f"{random_id}_"
+    input_dir = folder_paths.get_input_directory()
+    input_files = [f for f in os.listdir(input_dir) if f.startswith(prefix)]
+    try:
+        for input_file in input_files:
+            if input_file.startswith(prefix_random_id):
+                continue
+            os.remove(os.path.join(input_dir, input_file))
+    except:
+        pass
     for index in range(len(image_bytes_list)):
         image_bytes = image_bytes_list[index]
         form = aiohttp.FormData()
-        filename = name_index_template.format(index)
+        filename = prefix_random_id + f"{index}" + f"{postfix}"
         form.add_field('image', image_bytes, filename=filename, content_type='image/png')
         form.add_field('overwrite', 'true')
         async with aiohttp.ClientSession() as session:

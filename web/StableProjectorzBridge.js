@@ -64,17 +64,14 @@ function createSocket(){
 	);
 	socket.addEventListener("open", () => {
 	});
-
 	socket.addEventListener("error", () => {
 		if (socket) socket.close();
 	});
-
 	socket.addEventListener("close", () => {
 		setTimeout(() => {
 			socket = null;
 		}, 300);
 	});
-
 	socket.addEventListener("message", (event) => {
 		try {
 			const msg = JSON.parse(event.data);
@@ -101,9 +98,10 @@ async function respond(callId, result) {
 
 async function run_prompt(callId, params) {
 	const randomId = params.random_id ?? "0";
+	const batch = params.batch ?? 1;
 	input_init_prefix = FILENAME_FORMAT_INIT_PREFIX.replace("{0}", randomId);
 	input_controlnet_prefix = FILENAME_FORMAT_CONTROLNET_PREFIX.replace("{0}", randomId);
 	output_prefix = FILENAME_FORMAT_OUTPUT_PREFIX.replace("{0}", randomId);
-	await app.queuePrompt(0)
+	await app.queuePrompt(0, batch)
 	respond(callId, "done");
 }
