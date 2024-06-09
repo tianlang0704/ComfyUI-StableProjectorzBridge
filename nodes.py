@@ -174,7 +174,7 @@ class ProjectorzControlnetParameter:
     def run(self, index, name, value):
         return (str(value),)
 
-class StringToInt:
+class ProjectorzStringToInt:
     @classmethod
     def INPUT_TYPES(cls):
         return {
@@ -190,7 +190,7 @@ class StringToInt:
     def run(self, string):
         return (int(string),)
 
-class StringToFloat:
+class ProjectorzStringToFloat:
     @classmethod
     def INPUT_TYPES(cls):
         return {
@@ -212,8 +212,8 @@ NODE_CLASS_MAPPINGS = {
     "ProjectorzOutput": ProjectorzOutput,
     "ProjectorzParameter": ProjectorzParameter,
     "ProjectorzControlnetParameter": ProjectorzControlnetParameter,
-    "StringToInt": StringToInt,
-    "StringToFloat": StringToFloat,
+    "ProjectorzStringToInt": ProjectorzStringToInt,
+    "ProjectorzStringToFloat": ProjectorzStringToFloat,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = { 
@@ -222,6 +222,6 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "ProjectorzOutput": "Projectorz Output",
     "ProjectorzParameter": "Projectorz Parameter",
     "ProjectorzControlnetParameter": "Projectorz Controlnet Parameter",
-    "StringToInt": "String to Int",
-    "StringToFloat": "String to Float",
+    "ProjectorzStringToInt": "Projectorz String To Int",
+    "ProjectorzStringToFloat": "Projectorz String To Float",
 }
