@@ -15,11 +15,11 @@ async def init_client_handler(request):
     ws_list.remove(ws)
     return web.Response()
 
-async def run_prompt(random_id, batch):
+async def run_prompt(random_id, json_data):
     if len(ws_list) <= 0:
         return
     for ws in ws_list:
-        await ws.call("run_prompt", {'random_id': random_id, 'batch': batch}, timeout = 600)
+        await ws.call("run_prompt", {'random_id': random_id, 'json_data': json_data}, timeout = 600)
     queue = PromptServer.instance.prompt_queue
     if not queue:
         return

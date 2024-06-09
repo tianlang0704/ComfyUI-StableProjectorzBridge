@@ -11,6 +11,7 @@ from server import PromptServer
 import folder_paths
 from aiohttp import web
 from . import ws
+import nodes
 
 FILENAME_FORMAT_INIT_PREFIX = 'ProjectorInitBlob_'
 FILENAME_FORMAT_CONTROLNET_PREFIX = 'ProjectorControlnetBlob_'
@@ -40,8 +41,9 @@ async def sysinfo_handler(request):
 async def ping_handler(request):
     return web.Response()
 
-@PromptServer.instance.routes.get('/sdapi/v1/interrupt')
+@PromptServer.instance.routes.post('/sdapi/v1/interrupt')
 async def interrupt_handler(request):
+    nodes.interrupt_processing()
     return web.Response()
 
 @PromptServer.instance.routes.get('/sdapi/v1/options')
@@ -83,14 +85,11 @@ async def controlnet_module_list_handler(request):
 @PromptServer.instance.routes.post('/sdapi/v1/txt2img')
 async def txt2img_handler(request):
     json_data = await request.json()
-    batch_size = json_data.get('batch_size', 1)
-    n_iter = json_data.get('n_iter', 1)
-    comfy_batch = batch_size * n_iter
     random_id = "".join(random.choice(string.ascii_letters) for i in range(10))
     image_bytes_list, image_mask_bytes_list = get_controlnet_image_list(json_data)
     await upload_image_list(image_bytes_list, FILENAME_FORMAT_CONTROLNET_PREFIX, random_id, ".png")
     await upload_image_list(image_mask_bytes_list, FILENAME_FORMAT_CONTROLNET_PREFIX, random_id, "_mask.png")
-    await ws.run_prompt(random_id, comfy_batch)
+    await ws.run_prompt(random_id, json_data)
     images = await find_output_image_to_b64(FILENAME_FORMAT_OUTPUT_PREFIX + f"{random_id}_")
     return web.Response(body=json.dumps({'images': images}), content_type='application/json')
 
