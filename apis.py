@@ -4,7 +4,6 @@ import json
 import os
 import random
 import string
-from tkinter import Image
 from PIL import PngImagePlugin, Image
 import aiohttp
 import numpy as np
@@ -145,6 +144,8 @@ async def find_output_image_to_b64(output_prefix):
     output_files = [f for f in os.listdir(output_dir) if f.startswith(output_prefix)]
     output_files.sort()
     if len(output_files) <= 0:
+        image = Image.new('RGB', (1, 1), (255, 255, 255))
+        images.append(encode_pil_to_base64(image))
         return images
     for output_file in output_files:
         with open(os.path.join(output_dir, output_file), 'rb') as f:
