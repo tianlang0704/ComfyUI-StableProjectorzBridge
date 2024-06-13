@@ -21,6 +21,6 @@ Enjoy!
 <br />
 <img width="427" src="https://github.com/tianlang0704/ComfyUI-StableProjectorzBridge/assets/12490479/0dfccf2a-290e-43c4-8014-23b2fc1e5c55">
 <br />
-<img width="600" src="https://github.com/tianlang0704/ComfyUI-StableProjectorzBridge/assets/12490479/05db7d2a-615b-479b-bf3b-243f6d43df92">
-<br />
 <img width="931" src="https://github.com/tianlang0704/ComfyUI-StableProjectorzBridge/assets/12490479/b5a92132-8538-481b-909c-ca4709f300b0">
+<br />
+<img width="600" src="https://github.com/tianlang0704/ComfyUI-StableProjectorzBridge/assets/12490479/05db7d2a-615b-479b-bf3b-243f6d43df92">
