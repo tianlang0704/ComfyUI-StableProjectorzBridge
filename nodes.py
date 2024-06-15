@@ -1,6 +1,5 @@
 import json
 import os
-from tkinter import Image
 from PIL import Image
 from PIL.PngImagePlugin import PngInfo
 import numpy as np
