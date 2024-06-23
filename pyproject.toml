@@ -9,6 +9,6 @@ Repository = "https://github.com/tianlang0704/ComfyUI-StableProjectorzBridge"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "tianlang0704"
 DisplayName = "ComfyUI-StableProjectorzBridge"
 Icon = ""
