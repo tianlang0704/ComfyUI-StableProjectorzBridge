@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-stableprojectorzbridge"
+description = "This custom nodes enables Stable Projectorz to work with ComfyUI Directly."
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/tianlang0704/ComfyUI-StableProjectorzBridge"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-StableProjectorzBridge"
+Icon = ""
