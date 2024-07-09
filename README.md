@@ -1,5 +1,5 @@
 # Install
-The best easiest way is to use ComfyUI Manager to install.
+The easiest way is to use ComfyUI Manager to install, otherwise just clone into ComfyUI's custom node folder.
 
 # Use
 1. Create a workflow with Projector Controlnet Input as input, and Projectorz Output as output
@@ -15,6 +15,7 @@ All settings in Stable Projectorz are accessable through ProjectorzParameter nod
 
 Enjoy!
 
+# Sample Workflows
 <br />
 <a href="samples/ProjectorzGen_Sample.json">Sample workflow for Generating with Controlnet(the default way with Projectorz)</a>
 <br />
@@ -24,7 +25,10 @@ Enjoy!
 <br />
 <img width="250" src="./samples/ProjectorzInpaint_Sample.png">
 <br />
-Basic settings:
+<br />
+<br />
+
+# Basic settings
 <br />
 <img width="241" src="https://github.com/tianlang0704/ComfyUI-StableProjectorzBridge/assets/12490479/539f44ed-78ef-46fb-a262-e5a314ed439f">
 <br />
