@@ -14,6 +14,13 @@ StableProjectorz sends only controlnet images/masks and inpaint images/masks to 
 All settings in Stable Projectorz are accessable through ProjectorzParameter node and ProjectorzControlnetParameter node.
 
 Enjoy!
+
+<br />
+[Workflow for Generating with Controlnet(the default way with Projectorz)](samples/ProjectorzGen_Sample.json)
+<img width="250" src="./samples/ProjectorzGen_Sample.png">
+[Workflow for inpainting(Projectorz brush fill)](samples/ProjectorzGen_Sample.json)
+<img width="250" src="./samples/ProjectorzInpaint_Sample.png">
+Basic settings:
 <br />
 <img width="241" src="https://github.com/tianlang0704/ComfyUI-StableProjectorzBridge/assets/12490479/539f44ed-78ef-46fb-a262-e5a314ed439f">
 <br />
