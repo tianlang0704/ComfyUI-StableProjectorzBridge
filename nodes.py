@@ -16,9 +16,9 @@ def get_empty_image():
     b = torch.full([1, 512, 512, 1], ((0xFF) & 0xFF) / 0xFF)
     return torch.cat((r, g, b), dim=-1)
 
-loadImage = LoadImage()
 def load_image(image_name):
     try:
+        loadImage = LoadImage()
         (output_image, output_mask) = loadImage.load_image(image_name)
     except:
         output_image = get_empty_image()

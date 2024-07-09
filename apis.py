@@ -104,7 +104,7 @@ async def img2img_handler(request):
     image_bytes_list, image_mask_bytes_list = get_controlnet_image_list(json_data)
     await upload_image_list(image_bytes_list, FILENAME_FORMAT_CONTROLNET_PREFIX, random_id, ".png")
     await upload_image_list(image_mask_bytes_list, FILENAME_FORMAT_CONTROLNET_PREFIX, random_id, "_mask.png")
-    await ws.run_prompt(random_id)
+    await ws.run_prompt(random_id, json_data)
     images = await find_output_image_to_b64(FILENAME_FORMAT_OUTPUT_PREFIX + f"{random_id}_")
     return web.Response(body=json.dumps({'images': images}), content_type='application/json')
 
