@@ -108,9 +108,9 @@ async def img2img_handler(request):
     images = await find_output_image_to_b64(FILENAME_FORMAT_OUTPUT_PREFIX + f"{random_id}_")
     return web.Response(body=json.dumps({'images': images}), content_type='application/json')
 
-@PromptServer.instance.routes.post('/sdapi/v1/progress')
+@PromptServer.instance.routes.get('/sdapi/v1/progress')
 async def progress_handler(request):
-    json_data = await request.json()
+    # json_data = await request.json()
     return web.Response()
 
 async def upload_image_list(image_bytes_list, prefix, random_id, postfix):
