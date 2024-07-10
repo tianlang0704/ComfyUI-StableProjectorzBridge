@@ -7,9 +7,9 @@ The easiest way is to use ComfyUI Manager to install, otherwise just clone into 
 3. Done
 
 # Info
-This custom nodes enables Stable Projectorz to work with ComfyUI Directly.
+These custom nodes enable Stable Projectorz to work with ComfyUI Directly.
 
-StableProjectorz sends only controlnet images/masks and inpaint images/masks to ComfyUI nodes, and then ComfyUI process them and sends them back to StableProjectorz.
+StableProjectorz sends controlnet images/masks and inpaint images/masks to ComfyUI nodes, and then ComfyUI process them and sends them back to StableProjectorz.
 
 All settings in Stable Projectorz are accessable through ProjectorzParameter node and ProjectorzControlnetParameter node.
 
