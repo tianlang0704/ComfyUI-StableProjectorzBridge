@@ -26,12 +26,14 @@ def load_image(image_name):
     return (output_image, output_mask)
 
 class ProjectorzInitInput:
+    channel_list = ["red", "green", "blue", "alpha"]
     @classmethod
     def INPUT_TYPES(cls):
         return {
             "required": {
                 "index": ("INT", {"default": 0}),
                 "name_prefix": ("STRING", {"default": apis.FILENAME_FORMAT_INIT_PREFIX_DEFAULT}),
+                "mask_channel": (ProjectorzInitInput.channel_list,),
             }
         }
 
@@ -39,12 +41,14 @@ class ProjectorzInitInput:
     FUNCTION = "run"
     CATEGORY = "Projectorz"
 
-    def run(self, index, name_prefix):
+    def run(self, index, name_prefix, mask_channel):
         image_name = name_prefix + str(index) + ".png"
         (output_image, output_mask) = load_image(image_name)
         image_mask_name = name_prefix + str(index) + "_mask.png"
         (output_image_mask, output_mask_mask) = load_image(image_mask_name)
-        return (output_image, output_mask_mask)
+        mask_channel_index = ProjectorzInitInput.channel_list.index(mask_channel)
+        mask = output_image_mask[:, :, :, mask_channel_index] if mask_channel_index < 3 else output_mask_mask
+        return (output_image, mask)
     
 class ProjectorzControlnetInput:
     @classmethod
