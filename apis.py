@@ -114,9 +114,15 @@ async def progress_handler(request):
     return web.Response()
 
 async def upload_image_list(image_bytes_list, prefix, random_id, postfix):
+    if not image_bytes_list:
+        print(f"No images to upload for {postfix}. Continuing without it.")
+        return
     if isinstance(image_bytes_list, str):
         image_bytes_list = [image_bytes_list]
-    if not image_bytes_list or len(image_bytes_list) <= 0:
+     # Filter out None values
+    image_bytes_list = [image for image in image_bytes_list if image is not None]
+    if not image_bytes_list:
+        print(f"No valid images to upload for {postfix}. Continuing without it.")
         return
     prefix_random_id = prefix + f"{random_id}_"
     input_dir = folder_paths.get_input_directory()
