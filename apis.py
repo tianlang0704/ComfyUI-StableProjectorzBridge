@@ -33,11 +33,11 @@ def get_json_response(file_name):
         json_cache[file_name] = data
     return web.Response(body=json.dumps(data), content_type='application/json')
 
-@PromptServer.instance.routes.get('/internal/sysinfo')
+@PromptServer.instance.internal_routes.routes.get('/sysinfo')
 async def sysinfo_handler(request):
     return get_json_response('sysinfo.json')
 
-@PromptServer.instance.routes.get('/internal/ping')
+@PromptServer.instance.internal_routes.routes.get('/ping')
 async def ping_handler(request):
     return web.Response()
 
