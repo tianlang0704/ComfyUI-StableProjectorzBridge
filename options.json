@@ -95,7 +95,7 @@
     "training_enable_tensorboard": false,
     "training_tensorboard_save_images": false,
     "training_tensorboard_flush_every": 120.0,
-    "sd_model_checkpoint": "Dummy Model Name",
+    "sd_model_checkpoint": "Configure In ComfyUI",
     "sd_checkpoints_limit": 1.0,
     "sd_checkpoints_keep_in_cpu": true,
     "sd_checkpoint_cache": 0,

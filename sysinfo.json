@@ -108,7 +108,7 @@
         "controlnet_disable_photopea_edit": false,
         "controlnet_photopea_warning": true,
         "controlnet_input_thumbnail": true,
-        "sd_model_checkpoint": "Dummy Model Name",
+        "sd_model_checkpoint": "Configure In ComfyUI",
         "sd_vae": "None",
         "sd_checkpoint_hash": "eb4099ba9cd5e69ab526fca22a2e967f286f8512d9509b735c892fa6468767cf",
         "outdir_samples": "",

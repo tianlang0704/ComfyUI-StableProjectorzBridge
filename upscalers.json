@@ -1,7 +1,7 @@
 [
     {
-        "name": "Dummy Upscaler",
-        "model_name": "Dummy Model Name",
+        "name": "Configure In ComfyUI",
+        "model_name": "Configure In ComfyUI",
         "model_path": "Dummy Model Path",
         "model_url": null,
         "scale": 4
