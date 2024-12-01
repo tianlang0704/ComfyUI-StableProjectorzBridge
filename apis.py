@@ -136,15 +136,20 @@ async def upload_image_list(image_bytes_list, prefix, random_id, postfix):
         pass
     for index in range(len(image_bytes_list)):
         image_bytes = image_bytes_list[index]
-        form = aiohttp.FormData()
-        filename = prefix_random_id + f"{index}" + f"{postfix}"
-        form.add_field('image', image_bytes, filename=filename, content_type='image/png')
-        form.add_field('overwrite', 'true')
+        def get_form_data():
+            form = aiohttp.FormData()
+            filename = prefix_random_id + f"{index}" + f"{postfix}"
+            form.add_field('image', image_bytes, filename=filename, content_type='image/png')
+            form.add_field('overwrite', 'true')
+            return form
         async with aiohttp.ClientSession() as session:
             try: #try local host first because ipv6 compatible
-                await session.post(f'http://localhost:{PromptServer.instance.port}/upload/image', data = form)
+                await session.post(f'http://localhost:{PromptServer.instance.port}/upload/image', data = get_form_data())
+                # manually throw error to test
+                # print("Test error")
+                # raise Exception("Test error")
             except:
-                await session.post(f'http://127.0.0.1:{PromptServer.instance.port}/upload/image', data = form)
+                await session.post(f'http://127.0.0.1:{PromptServer.instance.port}/upload/image', data = get_form_data())
 
 async def find_output_image_to_b64(output_prefix):
     images = []

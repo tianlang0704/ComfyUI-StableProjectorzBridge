@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-stableprojectorzbridge"
 description = "This custom nodes enables Stable Projectorz to work with ComfyUI Directly."
-version = "1.0.4"
+version = "1.0.5"
 license = "LICENSE"
 
 [project.urls]
